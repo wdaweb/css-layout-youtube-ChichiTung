@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.container {
+  width: 75%;
+  margin: 0, auto;
+
+}
+
+.h-100 {
+  height: 100%;
+}
+
+/* Sidebar */
+#sidebar {
+  width: 240px;
+  height: 100vh;
+  background: pink;
+  float: left;
+}
+
+.logo {
+  width: 240px;
+  padding-left: 16px;
+}
+
+.logo i {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
+
+.logo img {
+  width: 90px;
+  height: 20px;
+  position: relative;
+  top: 15px;
+  left: 5%;
+}
+
+.logo::after {
+  content: "TW";
+  color: gray;
+  font-size: 6px;
+  position: relative;
+  top: 5%;
+  right: 0;
+  bottom: 0;
+  left: 5%;
+}
+
+/* Header ----------------------------- */
+#header {
+  width: 100vw;
+  height: 100vh;
+  background: peachpuff;
+}
