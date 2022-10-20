@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel=”shortcut icon” href=”favicon.ico” />
+
+
+  <title>切版練習 - Youtube </title>
+  <!-- Reset CSS -->
+  <link rel="stylesheet" href="./CSS/reset.css">
+  <!-- 自己的外部樣式表 -->
+  <link rel="stylesheet" href="./CSS/style2.css">
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Serif+TC&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./CSS/animate.css">
+  <link rel="stylesheet" href="./CSS/all.css">
+</head>
+
+<body>
+  <!-- Top------------------------->
+  <div id="top">
+
+    <label for="sidebar-switch"><img src="./images/menu_icon-icons.com_48263.png" style="width: 24px;"></label>
+
+    <div class="logo">
+
+      <img src="./images/YouTube_logo_(2017).png" alt="Youtube Logo" title="Youtube 首頁">
+    </div>
+    <div class="search">
+      <div class="searchbox">
+        <input type="search" name="searchbox" id="searchinput" placeholder="搜尋">
+        <div class="searchicon"><i class="fa fa-search"></i></div>
+      </div>
+
+      <button class="search-btn"><i class="fa fa-search"></i></button>
+      <div class="mic">
+        <i class="fa-solid fa-microphone" style="position: absolute; top: 10px; right:13px;"></i>
+      </div>
+    </div>
+    <div class="end-masthead">
+      <div class="setup"><img src="./images/more.png" alt="設定" title="設定"></div>
+      <button class="signin"><img src="./images/user.png">登入</button>
+    </div>
+
+
+  </div>
+  <!-- Header------------------------------->
+  <div id="header">
+    <input type="button" value="全部" class="header-btn active">
+    <input type="button" value="遊戲" class="header-btn">
+    <input type="button" value="音樂" class="header-btn">
+    <input type="button" value="直播中" class="header-btn">
+    <input type="button" value="烹飪" class="header-btn">
+    <input type="button" value="卡通" class="header-btn">
+    <input type="button" value="動作冒險遊戲" class="header-btn">
+    <input type="button" value="最新上傳" class="header-btn">
+  </div>
+
+  <!-- sidebar---------------------------------->
+  <input type="checkbox" id="sidebar-switch">
+
+  <div id="sidebar">
+    <nav>
+      <a href="#" style="background-color: rgba(227, 227, 227, 0.7);"><i class="fa-solid fa-house"></i><span
+          style="position: relative; top:1px; ">首頁</span>
+      </a>
+      <a href="#"><img src="./images/direction.png" style="position:relative; top:1px">
+        <span style="position: relative; left:-5px;">探索</span>
+      </a>
+      <a href="#"><img src="./images/shorts-01.png"
+          style="width:25px; height:25px; filter:drop-shadow(0px 0px 0.6px black); position:relative; left:-3px">
+        <span style="position: relative; top:-7px;left:-8px ">Shorts</span>
+      </a>
+      <a href="#"><img src="./images/menu_youtube_social_media_subs_subscription_icon_197393.png"><span>訂閱內容</span></a>
+    </nav>
+    <nav class="nav-margin">
+      <a href="#"><img src="./images/menu_youtube_social_media_subs_subscription_icon_197393.png"
+          alt=""><span>媒體庫</span></a>
+      <a href="#"><img src="./images/history_120205.png"><span>觀看紀錄</span></a>
+    </nav>
+    <nav class="signin-box">
+      <span>登入帳戶即可對影片表示喜歡、發布留言及訂閱頻道。</span>
+      <button class="signin"><img src="./images/user.png">登入</button>
+    </nav>
+
+    <nav>
+      <p>探索</p>
+      <a href="#"><i class="fa-solid fa-music"></i><span>音樂</span></a>
+      <a href="#"><i class="fa-solid fa-trophy"></i><span>體育</span></a>
+      <a href="#"><i class="fa-solid fa-gamepad"></i><span>遊戲</span></a>
+      <a href="#"><i class="fa-solid fa-film"></i><span>電影</span></a>
+      <a href="#"><i class="fa-regular fa-newspaper"></i><span>新聞</span></a>
+      <a href="#"><i class="fa-solid fa-satellite-dish"></i><span>直播</span></a>
+      <a href="#"><i class="fa-solid fa-mask"></i><span>360度影片</span></a>
+    </nav>
+    <nav>
+      <a href="#"><img src="./images/add.png"><span>瀏覽頻道</span></a>
+    </nav>
+    <nav>
+      <p>更多 YOUTUBE 功能</p>
+      <a href="#"><img src="./images/pnghut_youtube-logo-youtube-premium.png"><span>YouTube Premium</span></a>
+      <a href="#"><img src="./images/youtube-music-icon.png"><span>YouTube Music</span></a>
+      <a href="#"><img src="./images/youtube-kids-icon.png" style="height:auto;"><span>YouTube Kids</span></a>
+      <a href="#"><img src="./images/youtube-tv-icon.png" style="height:auto;"><span>Youtube TV</span></a>
+    </nav>
+    <nav>
+      <a href=" #"><img src="./images/cogwheel.png"><span>設定</span></a>
+      <a href="#"><img src="./images/red-flag.png"><span>檢舉紀錄</span></a>
+      <a href="#"><img src="./images/help.png"><span>說明</span></a>
+      <a href="#"><img src="./images/message.png"><span>提供意見</span></a>
+    </nav>
+    <div class="footer">
+      <span>簡介</span>
+      <span>媒體</span>
+      <span>版權</span>
+      <span>與我們聯絡</span>
+      <span>創作者</span>
+      <span>廣告</span>
+      <span>開發人員</span>
+      <br><br>
+      <span>條款</span>
+      <span>隱私權</span>
+      <span>政策與安全性</span>
+      <span>YouTube運作方式</span>
+      <span>測試新功能</span>
+      <br><br>
+      <p style="font-size: 8px; color: rgb(255, 42, 42); padding: 1px; line-height: 10px; font-family: '華康方圓體';">
+        &copy;2022 泰山前端班 董元琪<br><br>
+        YouTube 切版練習
+      </p>
+    </div>
+
+  </div>
+
+
+
+  </div>
+  <!-- content---------------------------------- -->
+  <div id="content">
+    <!-- 第一列 -->
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="./images/clip/img1.JPG">
+          <div class="details">
+            <img class='company-logo' src="./images/clip/logo/logo1.jpg" alt="">
+            <div class="clip-title">
+              <p>(여자)아이들((G)I-DLE) - 'Nxde' X-LOVE SHOW Ver.</yt-formatted-string>
+              </p>
+              <p class='ytber'>(G)I-DLE (여자)아이들 (Official YouT...<br>
+                觀看次數：87萬次．14小時前</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./images/clip/img2.jpg">
+          <div class="details">
+            <img class='company-logo' src="./images/clip/logo/logo2.jpg" alt="">
+            <div class="clip-title">
+              <p>SEVENTEEN (세븐틴) '_WORLD' Official MV</p>
+              <p class='ytber'>HYBE LABELS<br>
+                觀看次數：5624萬次．3個月前</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./images/clip/img3.jpg">
+          <div class="details">
+            <img class='company-logo' src="./images/clip/logo/logo3.jpg" alt="">
+            <div class="clip-title">
+              <p>LE SSERAFIM (르세라핌) ‘ANTIFRAGILE’ Special...
+              </p>
+              <p class='ytber'>LE SSERAFIM<br>
+                觀看次數：161萬次．16小時前</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./images/clip/img4.webp">
+          <div class="details">
+            <img class='company-logo' src="./images/clip/logo/logo4.jpg" alt="">
+            <div class="clip-title">
+              <p>[최초공개] LE SSERAFIM(르세라핌) - Intro + No Celestial (4K) | LE...</p>
+              <p class='ytber'>M2<br>
+                觀看次數：113萬次．1天前</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- 第二列 -->
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="./images/clip/img5.jpg">
+          <div class="details">
+            <img class='company-logo' src="./images/clip/logo/logo1.jpg" alt="">
+            <div class="clip-title">
+              <p>220906 BE THE SUN in NEWARK Shadow 세븐틴 민...
+              </p>
+              <p class='ytber'>BLIND<br>
+                觀看次數：3.6萬次．1個月前</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./images/clip/img6.jpg">
+          <div class="details">
+            <img class='company-logo' src="./images/clip/logo/logo4.jpg" alt="">
+            <div class="clip-title">
+              <p>[릴레이댄스] SEVENTEEN(세븐틴) - HOME;RUN (4K)</p>
+              <p class='ytber'>M2<br>
+                觀看次數：581萬次．1年前</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./images/clip/img7.jpg">
+          <div class="details">
+            <img class='company-logo' src="./images/clip/logo/logo7.jpg" alt="">
+            <div class="clip-title">
+              <p> - Illusion l SBS Inkigayo Ep 1148 [ENG SUB]
+              </p>
+              <p class='ytber'>KOCOWA TV<br>
+                觀看次數：76萬次．2個月前</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./images/clip/img8.jpg">
+          <div class="details">
+            <img class='company-logo' src="./images/clip/logo/logo2.jpg" alt="">
+            <div class="clip-title">
+              <p>SEVENTEEN (세븐틴) '_WORLD' Official MV (Eye Contact Ver.)</p>
+              <p class='ytber'>HYBE LABELS<br>
+                觀看次數：267萬次．1個月前</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 第三列 -->
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="./images/clip/img4.webp">
+          <div class="details">
+            <img class='company-logo' src="./images/clip/logo/logo4.jpg" alt="">
+            <div class="clip-title">
+              <p>[최초공개] LE SSERAFIM(르세라핌) - Intro + No Celestial (4K) | LE...</p>
+              <p class='ytber'>M2<br>
+                觀看次數：113萬次．1天前</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./images/clip/img3.jpg">
+          <div class="details">
+            <img class='company-logo' src="./images/clip/logo/logo3.jpg" alt="">
+            <div class="clip-title">
+              <p>LE SSERAFIM (르세라핌) ‘ANTIFRAGILE’ Special...
+              </p>
+              <p class='ytber'>LE SSERAFIM<br>
+                觀看次數：161萬次．16小時前</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="card">
+          <img src="./images/clip/img2.jpg">
+          <div class="details">
+            <img class='company-logo' src="./images/clip/logo/logo2.jpg" alt="">
+            <div class="clip-title">
+              <p>SEVENTEEN (세븐틴) '_WORLD' Official MV</p>
+              <p class='ytber'>HYBE LABELS<br>
+                觀看次數：5624萬次．3個月前</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="./images/clip/img1.JPG">
+          <div class="details">
+            <img class='company-logo' src="./images/clip/logo/logo1.jpg" alt="">
+            <div class="clip-title">
+              <p>(여자)아이들((G)I-DLE) - 'Nxde' X-LOVE SHOW Ver.</yt-formatted-string>
+              </p>
+              <p class='ytber'>(G)I-DLE (여자)아이들 (Official YouT...<br>
+                觀看次數：87萬次．14小時前</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <!-- 第四列 -->
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="./images/clip/img8.jpg">
+          <div class="details">
+            <img class='company-logo' src="./images/clip/logo/logo2.jpg" alt="">
+            <div class="clip-title">
+              <p>SEVENTEEN (세븐틴) '_WORLD' Official MV (Eye Contact Ver.)</p>
+              <p class='ytber'>HYBE LABELS<br>
+                觀看次數：267萬次．1個月前</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./images/clip/img7.jpg">
+          <div class="details">
+            <img class='company-logo' src="./images/clip/logo/logo7.jpg" alt="">
+            <div class="clip-title">
+              <p> - Illusion l SBS Inkigayo Ep 1148 [ENG SUB]
+              </p>
+              <p class='ytber'>KOCOWA TV<br>
+                觀看次數：76萬次．2個月前</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="./images/clip/img5.jpg">
+          <div class="details">
+            <img class='company-logo' src="./images/clip/logo/logo1.jpg" alt="">
+            <div class="clip-title">
+              <p>220906 BE THE SUN in NEWARK Shadow 세븐틴 민...
+              </p>
+              <p class='ytber'>BLIND<br>
+                觀看次數：3.6萬次．1個月前</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="./images/clip/img6.jpg">
+          <div class="details">
+            <img class='company-logo' src="./images/clip/logo/logo4.jpg" alt="">
+            <div class="clip-title">
+              <p>[릴레이댄스] SEVENTEEN(세븐틴) - HOME;RUN (4K)</p>
+              <p class='ytber'>M2<br>
+                觀看次數：581萬次．1年前</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+    <script src="/jquery-3.6.1.min.js"></script>
+    <script>
+      // $("#sidebar").on("mouseenter mouseleave", function (event) { // 挷定滑鼠進入及離開事件
+      //   if (event.type == "mouseenter") {
+      //     $(this).css({ "overflow-y": "scroll" }); // 滑鼠進入
+      //   } else {
+      //     $(this).scrollTop(0).css({ "overflow-y": "hidden" }); // 滑鼠離開
+      //   }
+      // });
+    </script>
+</body>
+
+</html>
